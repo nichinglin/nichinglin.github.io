@@ -53,6 +53,11 @@ function add_image(img_, link_){
 	return 0;
 }
 
+function add_image_no_link(img_){
+	img = '<img class="image fit thumb" src="' + img_ + '" alt="" />'
+	return 0;
+}
+
 function return_image(){
 	return img;
 }
